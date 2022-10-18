@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    align-items: center;
+    padding: 3%;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgTitle{
+    width: 100%;
+    margin-top: 3%;
+}
+.card .logo{
+    width: 50%;
+}
+.card-body{
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .card {
+      margin-top: 2%;
+    }
+}

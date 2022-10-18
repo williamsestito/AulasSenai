@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body nav .navBarFirts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBarFirts .navbar-brand{
+    color: #ffffff !important; 
+}
+.imglogo{
+    width: 10%;
+}
+.menus{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    background: rgb(235, 240, 235);
+    height: 100px;
+}
+.bg-light{
+    background: #ebf0eb !important;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    width: 70%;
+}
+.menu{
+    width: 80%;
+    justify-content: flex-end;
+    display: flex;
+}
+li.nav-item {
+    width: 25%;
+    justify-content: center;
+    display: flex;
+    margin-left: 2%;
+    background: #212529;
+    border-radius: 15px;
+}
+.nav-link{
+    color: #ffffff !important;
+}
+.navCarrinhos{
+    color: #000000;
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+.badge{
+    color: #ffffff;
+    background: red;
+    clip-path: circle();
+    z-index: 10;
+    margin-top: -2%;
+    margin-right: -2%;
+    margin-left: 8%;
+}
+.iconCart{
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1%;
+}
+.imgBanner{
+    width: 80%;
+}
+.produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1%;
+}
+.itens{
+    width: 90%;
+}
+.row{
+    margin-top: 1%;
+}
+.prodImg{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 5%;
+}
+@media(max-width: 768px){
+    .navbar span{
+        display: none;
+    }
+    .imglogo{
+        width: 30%;
+    }
+}

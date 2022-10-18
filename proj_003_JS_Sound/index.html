@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Calculo de IMC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SESTITO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/proj_javascript.html">Voltar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre nós</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cursos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">HTML</a></li>
+                  <li><a class="dropdown-item" href="#">CSS</a></li>
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Certificados</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contato</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- *fim da NavBar -->
+
+      <div class="btnCurso">
+        <a href="proj_js/videoaulas.html" class="btn btn-primary">Ver o curso</a>
+      </div>
+
+      <!-- * Inicio conteúdo -->
+
+    <main>
+        <h1>Efeitos Sonoros</h1>
+
+        <section class="teclado">
+            <button class="tecla tecla_pom">Pom</button>
+            <button class="tecla tecla_clap">Clap</button>
+            <button class="tecla tecla_tim">Tim</button>
+
+            <button class="tecla tecla_puff">Puff</button>
+            <button class="tecla tecla_splash">Splash</button>
+            <button class="tecla tecla_toim">Toim</button>
+
+            <button class="tecla tecla_psh">Psh</button>
+            <button class="tecla tecla_tic">Tic</button>
+            <button class="tecla tecla_tom">Tom</button>
+        </section>
+
+        <audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
+        <audio src="sounds/keyw.wav" id="som_tecla_clap"></audio>
+        <audio src="sounds/keye.wav" id="som_tecla_tim"></audio>
+        <audio src="sounds/keya.wav" id="som_tecla_puff"></audio>
+        <audio src="sounds/keys.wav" id="som_tecla_splash"></audio>
+        <audio src="sounds/keyd.wav" id="som_tecla_toim"></audio>
+        <audio src="sounds/keyz.wav" id="som_tecla_psh"></audio>
+        <audio src="sounds/keyx.wav" id="som_tecla_tic"></audio>
+        <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
